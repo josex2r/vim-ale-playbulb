@@ -19,6 +19,11 @@
   "author": "josex2r",
   "license": "ISC",
   "dependencies": {
-    "noble": "^1.8.1"
+    "noble": "^1.8.1",
+    "q": "^1.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^15.0.1"
   }
 }
