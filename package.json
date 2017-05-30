@@ -1,0 +1,24 @@
+{
+  "name": "vim-ale-playbulb",
+  "version": "1.0.0",
+  "description": "Change playbulb candle color while files are linted!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vim",
+    "ale",
+    "lint",
+    "candle",
+    "playbulb",
+    "iot",
+    "raspberry",
+    "bluetooth"
+  ],
+  "author": "josex2r",
+  "license": "ISC",
+  "dependencies": {
+    "noble": "^1.8.1"
+  }
+}
