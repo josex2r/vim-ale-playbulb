@@ -2,9 +2,11 @@
   "name": "vim-ale-playbulb",
   "version": "1.0.0",
   "description": "Change playbulb candle color while files are linted!",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "start": "sudo ./node_modules/.bin/babel-node index.js",
+    "start": "nodemon --debug lib/ -e js --exec babel-node lib/index.js",
+    "build": "babel lib -d dist",
+    "serve": "node dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -28,6 +30,7 @@
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "eslint": "^3.19.0",
-    "eslint-config-airbnb": "^15.0.1"
+    "eslint-config-airbnb": "^15.0.1",
+    "nodemon": "^1.11.0"
   }
 }
