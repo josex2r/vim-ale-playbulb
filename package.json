@@ -4,6 +4,7 @@
   "description": "Change playbulb candle color while files are linted!",
   "main": "index.js",
   "scripts": {
+    "start": "sudo ./node_modules/.bin/babel-node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -19,10 +20,13 @@
   "author": "josex2r",
   "license": "ISC",
   "dependencies": {
+    "babel-preset-latest": "^6.24.1",
+    "debug": "^2.6.8",
     "noble": "^1.8.1",
     "q": "^1.5.0"
   },
   "devDependencies": {
+    "babel-cli": "^6.24.1",
     "eslint": "^3.19.0",
     "eslint-config-airbnb": "^15.0.1"
   }
