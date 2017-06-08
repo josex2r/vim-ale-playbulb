@@ -17,7 +17,7 @@ Finding the log file path:
 
 Retrieve the log
 
-`$ adb pull /sdcard/btsnoop_hci.log
+`$ adb pull /sdcard/btsnoop_hci.log`
 
 Inspect it with Wireshark or another tool.
 
