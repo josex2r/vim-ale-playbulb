@@ -1,5 +1,7 @@
 # vim-ale-playbulb
 
+[![vim-ale-playbulb video preview](assets/preview.png)](https://youtu.be/d3kYVOvJ-o8)
+
 ## Preinstall
 
 * Make sure you have `curl`. If you don't have it then install it or customize the `NotifyPlaybulb` vimscript function.
