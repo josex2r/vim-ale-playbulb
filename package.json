@@ -23,7 +23,9 @@
   "license": "ISC",
   "dependencies": {
     "babel-preset-latest": "^6.24.1",
+    "body-parser": "^1.17.2",
     "debug": "^2.6.8",
+    "express": "^4.15.3",
     "noble": "^1.8.1",
     "q": "^1.5.0"
   },
