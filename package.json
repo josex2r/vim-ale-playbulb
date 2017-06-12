@@ -34,5 +34,16 @@
     "eslint": "^3.19.0",
     "eslint-config-airbnb": "^15.0.1",
     "nodemon": "^1.11.0"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josex2r/vim-ale-playbulb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/josex2r/vim-ale-playbulb/issues"
+  },
+  "homepage": "https://github.com/josex2r/vim-ale-playbulb#readme"
 }

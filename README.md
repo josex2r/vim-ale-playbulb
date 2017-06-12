@@ -44,7 +44,10 @@ Run this command to start the server (if you want to see the log output use the 
 
 `$ DEBUG=Express,Candle,Peripheral,Playbulb npm start`
 
-Configure your `~/.vimrc` to send `ale` data to the server:
+## Interacting with `ale`
+
+Check that you have correctly setup your vim linter with the [ale](https://github.com/w0rp/ale) plugin.
+Once you have the pluggin running add this piece of code to your `.vimrc`:
 
 ```
 function! NotifyPlaybulb()
@@ -71,15 +74,6 @@ augroup VimAlePlaybulb
   # Call our custom function.
   autocmd User ALELint call NotifyPlaybulb()
 augroup END
-```
-
-## Interacting with `ale`
-
-Check that you have correctly setup your vim linter with the [ale](https://github.com/w0rp/ale) plugin.
-Once you have the pluggin running add this piece of code to your `.vimrc`:
-
-```
-
 ```
 
 ## Sniffing bluetooth
